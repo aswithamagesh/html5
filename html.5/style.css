@@ -1,0 +1,85 @@
+/* Basic Reset */
+body, h1, h2, h3, p, a, input, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body Background */
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+}
+
+/* Login Container */
+.login-container {
+    background-color: #fff;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Login Form */
+.login-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Input Group */
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Button Styling */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #6e8efb;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #5a75d9;
+}
+
+/* Options (Forgot Password, Create Account) */
+.options {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.options a {
+    color: #6e8efb;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.options a:hover {
+    text-decoration: underline;
+}
